@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+}
+
+.section-1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url('BG.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    scroll-snap-align: start;
+}
+
+
+.header-container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.header{
+    padding: 0rem 4rem;;
+    flex: 3;
+}
+
+.nav-bar {
+    flex: 1;
+    display: flex;
+}
+
+.nav-bar li {
+    list-style: none;
+    padding: 0rem 1rem;
+}
+
+.section-2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url('BG-2.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    scroll-snap-align: start;
+}
